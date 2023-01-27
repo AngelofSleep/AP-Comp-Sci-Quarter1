@@ -3,6 +3,7 @@ public class Reece_P8_U3_L3
 {
    public static void main(String[] args)
    {
+      //takes temperature of water, prints what state it is in
       Scanner mae = new Scanner(System.in);
       int temp;
       String system;
