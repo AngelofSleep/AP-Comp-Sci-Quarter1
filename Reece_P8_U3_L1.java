@@ -3,6 +3,7 @@ public class Reece_P8_U3_L1
 {
    public static void main(String[] args)
    {
+      //program that takes two integers as inputs and displays their quotient and remainder as outputs
       Scanner mae = new Scanner(System.in);
       int a,b,c,d; //My ints are named like this because its easy to keep track and doesn't take a lot of typing
       System.out.print("Enter the first integer: ");
