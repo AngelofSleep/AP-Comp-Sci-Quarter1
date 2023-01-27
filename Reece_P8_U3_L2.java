@@ -3,7 +3,9 @@ public class Reece_P8_U3_L2
 {
    public static void main(String[] args)
    {
+      //program that compares four given digits to a randomly generated four-digit code
       Scanner mae = new Scanner(System.in);
+      //generating code. no duplicate numbers allowed!
       String i,j,k,l; //here from line 21 was added last, so that is why the variable start at e, and a doesn't pop up till line 22
       int e = (int)(10*Math.random());
       int f = (int)(10*Math.random());
@@ -20,6 +22,7 @@ public class Reece_P8_U3_L2
       k = String.valueOf(g);
       l = String.valueOf(h);
       String a = i+j+k+l; 
+      //user enters their own code, computer compares it to randomly generated code
       String b;
       int c = 0;
       int d = 0;
