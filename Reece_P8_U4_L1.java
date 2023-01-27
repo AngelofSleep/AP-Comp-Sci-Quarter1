@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Reece_P8_U4_L1
 {
+   //raises 2 to whatever positive power you would like
    public static void main(String[] args)
    {
       int power = 2;
